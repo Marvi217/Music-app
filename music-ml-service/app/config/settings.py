@@ -1,0 +1,14 @@
+class Settings:
+    app_name: str
+    app_version: str
+    cassandra_host: str
+    cassandra_port: int
+    cassandra_keyspace: str
+    redis_host: str
+    redis_port: int
+    azure_blob_connection_string: str
+    azure_blob_container: str
+    model_path: str
+    embedding_dim: int
+    ewma_alpha: float
+    batch_training_epochs: int
