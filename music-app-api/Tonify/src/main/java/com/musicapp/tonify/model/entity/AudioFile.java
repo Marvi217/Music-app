@@ -5,10 +5,12 @@ import com.musicapp.tonify.model.enums.AudioType;
 import com.musicapp.tonify.model.enums.Genre;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import lombok.Data;
 
 import java.util.UUID;
 
 @Entity
+@Data
 public class AudioFile {
 
     @Id
