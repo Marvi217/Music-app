@@ -1,6 +1,8 @@
 package com.musicapp.tonify.dto.request;
 
-// dto/request/LoginRequest.java
+import lombok.Data;
+
+@Data
 public class LoginRequest {
 
     private String email;

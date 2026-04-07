@@ -1,6 +1,10 @@
 package com.musicapp.tonify.dto.response;
 
-// dto/response/AudioUrlResponse.java
+import lombok.Builder;
+import lombok.Data;
+
+@Data
+@Builder
 public class AudioUrlResponse {
 
     private String sasUrl;
